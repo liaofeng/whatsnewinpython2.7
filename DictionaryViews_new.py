@@ -35,8 +35,7 @@ d1['four'] = 4
 print vk
 #get dict_keys(['four', 'two', 'three', 'th', 'one'])
 
-#However, note that you can’t add or remove keys while you’re iterating over the vie
+#However, note that you cannot add or remove keys while you'r iterating over the vie
 #for k in vk:
 #   d[k*2] = k
 #get RuntimeError: dictionary changed size during iteration
-
